@@ -134,6 +134,10 @@ const CtaContainer = styled.div`
   margin: 0 auto;
   position: relative;
   top: 55px;
+  &:hover {
+    scale: 1.08;
+  }
+  transition: 0.3s;
 `;
 const CtaButton = styled.a`
   width: 100%;
@@ -194,11 +198,13 @@ const Section3 = () => {
               <ColumnPrice>0,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$97 P/ 1 USUÁRIO
+              De Implementação <br />+ Tx. Mensal: R$97 P/ 3 USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <CtaContainer>
-            <CtaButton>COMPRAR</CtaButton>
+            <CtaButton target="blank" href="https://sun.eduzz.com/89AO8KP80D">
+              COMPRAR
+            </CtaButton>
           </CtaContainer>
         </FirstColumn>
         <SecondColumn>
@@ -235,7 +241,7 @@ const Section3 = () => {
               <ColumnPrice>970,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$97 P/ 1 USUÁRIO
+              De Implementação <br />+ Tx. Mensal: R$970 P/ 10 USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <ColumnPrinceMainContainer dark>
@@ -247,11 +253,13 @@ const Section3 = () => {
               <ColumnPrice>0,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$97 P/ 1 USUÁRIO
+              De Implementação <br />+ Tx. Mensal: R$197 P/ 10 USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <CtaContainer>
-            <CtaButton>COMPRAR</CtaButton>
+            <CtaButton target="blank" href="https://sun.eduzz.com/Z0BBX2640A">
+              COMPRAR
+            </CtaButton>
           </CtaContainer>
         </SecondColumn>
       </MainContent>

@@ -30,7 +30,9 @@ const Card = styled.div`
   }
 `;
 
-const TextContainer = styled.div``;
+const TextContainer = styled.div`
+  margin-left: 1rem;
+`;
 
 const Image = styled.div`
   width: 52%;
@@ -65,41 +67,41 @@ const Section7 = () => {
       </Card>
       <Card reverse>
         <TextContainer>
-          <CardTitle>Módulo 1:</CardTitle>
-          <Text>Aula 1 - Violação De Dados</Text>
-          <Text>Aula 2 - LGPD no Dia a Dia do Contador</Text>
-          <Text>Aula 3 - Adequação a serventia Notarial à LGPD</Text>
-          <Text>Aula 4 - Como Responder aos Direitos dos Titulares</Text>
+          <CardTitle>Módulo 2:</CardTitle>
+          <Text>Aula 1 - Cuidados ao Coletar Dados Pessoais</Text>
+          <Text>Aula 2 - Relatório De Impacto Cartório</Text>
+          <Text>Aula 3 - Mapeamento De Dados</Text>
+          <Text>Aula 4 - Governança Do Tratamento De Dados Pessoais</Text>
         </TextContainer>
         <Image></Image>
       </Card>
       <Card>
         <TextContainer>
-          <CardTitle>Módulo 1:</CardTitle>
-          <Text>Aula 1 - Violação De Dados</Text>
-          <Text>Aula 2 - LGPD no Dia a Dia do Contador</Text>
-          <Text>Aula 3 - Adequação a serventia Notarial à LGPD</Text>
-          <Text>Aula 4 - Como Responder aos Direitos dos Titulares</Text>
+          <CardTitle>Módulo 3:</CardTitle>
+          <Text>Aula 1 - Tabela De Temporalidade e Descarte</Text>
+          <Text>Aula 2 - Bases Legais</Text>
+          <Text>Aula 3 - Gestão De Risco</Text>
+          <Text>Aula 4 - Gestão De Incidentes Da Segurança da Informação</Text>
         </TextContainer>
         <Image></Image>
       </Card>
       <Card reverse>
         <TextContainer>
-          <CardTitle>Módulo 1:</CardTitle>
-          <Text>Aula 1 - Violação De Dados</Text>
-          <Text>Aula 2 - LGPD no Dia a Dia do Contador</Text>
-          <Text>Aula 3 - Adequação a serventia Notarial à LGPD</Text>
-          <Text>Aula 4 - Como Responder aos Direitos dos Titulares</Text>
+          <CardTitle>Módulo 4:</CardTitle>
+          <Text>Aula 1 - ANPD</Text>
+          <Text>Aula 2 - Ameaça e Risco</Text>
+          <Text>Aula 3 - Aspectos de Confiabilidade</Text>
+          <Text>Aula 4 - Estrutura da LGPD e Alguns Conceitos na Prática</Text>
         </TextContainer>
         <Image></Image>
       </Card>
       <Card>
         <TextContainer>
-          <CardTitle>Módulo 1:</CardTitle>
-          <Text>Aula 1 - Violação De Dados</Text>
-          <Text>Aula 2 - LGPD no Dia a Dia do Contador</Text>
-          <Text>Aula 3 - Adequação a serventia Notarial à LGPD</Text>
-          <Text>Aula 4 - Como Responder aos Direitos dos Titulares</Text>
+          <CardTitle>Módulo 5:</CardTitle>
+          <Text>Aula 1 - Incidente de Segurança</Text>
+          <Text>Aula 2 - Valor Dos Dados Para a Empresa</Text>
+          <Text>Aula 3 - Principais Conceitos LGPD</Text>
+          <Text>Aula 4 - Conscientização LGPD</Text>
         </TextContainer>
         <Image></Image>
       </Card>
