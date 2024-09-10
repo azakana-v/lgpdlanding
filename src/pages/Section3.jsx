@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import CorrectIconImg from "../assets/CorrectIcon.png";
+import XisIMG from "../assets/xis.png";
 
 const MainContainer = styled.div`
   width: 100vw;
@@ -99,6 +100,32 @@ const ColumnPriceContainer = styled.div`
     font-size: 0.8rem;
   }
 `;
+const XisContainer = styled.div`
+  max-width: 0px;
+  max-height: 0px;
+`;
+const Xis = styled.div`
+  min-width: 280px;
+  min-height: 100px;
+  /* background-color: #d21919; */
+  position: relative;
+  top: -10px;
+  z-index: 999;
+  background-image: url(${XisIMG});
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (max-width: 700px) {
+    min-width: 280px;
+    min-height: 100px;
+    /* background-color: #d21919; */
+    position: relative;
+    top: -40px;
+    z-index: 999;
+    background-image: url(${XisIMG});
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+`;
 
 const ColumnPrinceIndex = styled.div`
   font-size: 1.8rem;
@@ -124,10 +151,12 @@ const ColumnPrice = styled.span`
 const ColumnPriceObs = styled.span`
   font-weight: 500;
   font-family: "Krona One", sans-serif;
+  font-size: 0.7rem;
 `;
 
 const CtaContainer = styled.div`
-  background-color: #8500b2;
+  cursor: pointer;
+  background-color: #00b22f;
   border-radius: 1rem;
   width: 80%;
   text-align: center;
@@ -177,15 +206,18 @@ const Section3 = () => {
           </ColumnPointsContainer>
 
           <ColumnPrinceMainContainer>
+            <XisContainer>
+              <Xis></Xis>
+            </XisContainer>
             <ColumnPriceContainer>
               <ColumnPrinceIndex>
                 <strong>DE</strong> <br />
                 R$:
               </ColumnPrinceIndex>
-              <ColumnPrice>970,00</ColumnPrice>
+              <ColumnPrice> 970,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$97 P/ 1 USUÁRIO
+              De Implementação <br />+ Tx. Mensal: R$97 <br /> P/ 1 USUÁRIO
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
 
@@ -198,7 +230,9 @@ const Section3 = () => {
               <ColumnPrice>0,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$97 P/ 3 USUÁRIOS
+              De Implementação <br />+ Tx. Mensal:{" "}
+              <span style={{ fontSize: "1.7rem" }}>R$97</span> <br /> P/ 3
+              USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <CtaContainer>
@@ -233,6 +267,9 @@ const Section3 = () => {
             </Point>
           </ColumnPointsContainer>
           <ColumnPrinceMainContainer>
+            <XisContainer>
+              <Xis></Xis>
+            </XisContainer>
             <ColumnPriceContainer>
               <ColumnPrinceIndex>
                 <strong>DE</strong> <br />
@@ -241,7 +278,7 @@ const Section3 = () => {
               <ColumnPrice>970,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$970 P/ 10 USUÁRIOS
+              De Implementação <br />+ Tx. Mensal: R$970 <br /> P/ 10 USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <ColumnPrinceMainContainer dark>
@@ -253,7 +290,9 @@ const Section3 = () => {
               <ColumnPrice>0,00</ColumnPrice>
             </ColumnPriceContainer>
             <ColumnPriceObs>
-              De Implementação <br />+ Tx. Mensal: R$197 P/ 10 USUÁRIOS
+              De Implementação <br />+ Tx. Mensal:{" "}
+              <span style={{ fontSize: "1.7rem" }}>R$197</span> <br /> P/ 10
+              USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <CtaContainer>

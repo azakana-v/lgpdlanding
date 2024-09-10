@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropRect from "../assets/PropRect.png";
 import Velocimeter from "../assets/Velocimeter.png";
+import Velocimeter2 from "../assets/Velocimeter2.png";
 
 const MainContainer = styled.div`
   width: 100vw;
@@ -70,7 +71,9 @@ const HeaderImg = styled.img`
   flex: 1;
   border-bottom: 4px solid #671683;
   @media (max-width: 700px) {
-    width: 100vw;
+    width: 70vw;
+    position: relative;
+    right: 10px;
     /* min-height: 200px; */
   }
 `;
@@ -112,7 +115,9 @@ const Section4 = () => {
             <HeaderSubTitle>ETAPAS DO TERMÔMETRO</HeaderSubTitle>
             <HeaderTitle>LGPD</HeaderTitle>
           </HeaderText>
-          <HeaderImg src={Velocimeter}></HeaderImg>
+          <HeaderImg
+            src={window.innerWidth > 700 ? Velocimeter : Velocimeter2}
+          ></HeaderImg>
         </Header>
 
         <Content>

@@ -101,13 +101,16 @@ const Card = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 700px) {
-    height: 250px; //teste
+    height: 270px; //teste
   }
 `;
 
 const CardTextContainer = styled.div`
-  max-width: 70%;
+  max-width: 90%;
   display: flex;
+  @media (max-width: 700px) {
+    max-width: 95%;
+  }
 `;
 const CardTittle = styled.h3`
   margin-left: 1rem;
@@ -115,6 +118,8 @@ const CardTittle = styled.h3`
 const CardImg = styled.img`
   min-width: 100px;
   min-height: 100px;
+  max-height: 100px;
+  max-width: 100px;
   border-radius: 50%;
   background-color: #8500b2;
 `;
