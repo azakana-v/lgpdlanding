@@ -50,15 +50,20 @@ const ContentContainer1 = styled.div`
   border-radius: 5px;
 
   @media (max-width: 700px) {
-    width: 120%;
+    width: 130%;
     height: 320px;
+    width: 100vw;
     position: relative;
-    left: -9vw;
+    /* left: vw; */
+    min-width: 100vw;
+    left: -7vw;
+    min-width: 90vw;
     .swiper-container2 {
-      position: relative;
-      left: -9vw;
-      background-color: purple;
       width: 100vw;
+      min-width: 90vw;
+      position: relative;
+      left: 0vw;
+      background-color: purple;
     }
   }
 `;
@@ -99,13 +104,13 @@ const Section11 = () => {
             pagination={true}
             // scrollbar={{ draggable: true }}
           >
-            <SwiperSlide className="slide">
+            <SwiperSlide className="slide2">
               <Lamina src={Lamina1} alt="" />
             </SwiperSlide>
-            <SwiperSlide className="slide">
+            <SwiperSlide className="slide2">
               <Lamina src={Lamina2} alt="" />
             </SwiperSlide>
-            <SwiperSlide className="slide">
+            <SwiperSlide className="slide2">
               <Lamina src={Lamina3} alt="" />
             </SwiperSlide>
           </Swiper>

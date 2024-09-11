@@ -1,5 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import ImgModulo1 from "../assets/modulo1.png";
+import ImgModulo2 from "../assets/modulo2.png";
+import ImgModulo3 from "../assets/modulo3.png";
+import ImgModulo4 from "../assets/modulo4.png";
+import ImgModulo5 from "../assets/modulo5.png";
 
 const Container = styled.div`
   width: 100vw;
@@ -34,13 +39,13 @@ const TextContainer = styled.div`
   margin-left: 1rem;
 `;
 
-const Image = styled.div`
+const Image = styled.img`
   width: 52%;
   background-color: white;
   border-radius: 27px;
   @media (max-width: 700px) {
     width: 100%;
-    height: 350px;
+    height: 250px;
   }
 `;
 
@@ -63,7 +68,7 @@ const Section7 = () => {
           <Text>Aula 3 - Adequação a serventia Notarial à LGPD</Text>
           <Text>Aula 4 - Como Responder aos Direitos dos Titulares</Text>
         </TextContainer>
-        <Image></Image>
+        <Image src={ImgModulo1}></Image>
       </Card>
       <Card reverse>
         <TextContainer>
@@ -73,7 +78,7 @@ const Section7 = () => {
           <Text>Aula 3 - Mapeamento De Dados</Text>
           <Text>Aula 4 - Governança Do Tratamento De Dados Pessoais</Text>
         </TextContainer>
-        <Image></Image>
+        <Image src={ImgModulo2}></Image>
       </Card>
       <Card>
         <TextContainer>
@@ -83,7 +88,7 @@ const Section7 = () => {
           <Text>Aula 3 - Gestão De Risco</Text>
           <Text>Aula 4 - Gestão De Incidentes Da Segurança da Informação</Text>
         </TextContainer>
-        <Image></Image>
+        <Image src={ImgModulo3}></Image>
       </Card>
       <Card reverse>
         <TextContainer>
@@ -93,7 +98,7 @@ const Section7 = () => {
           <Text>Aula 3 - Aspectos de Confiabilidade</Text>
           <Text>Aula 4 - Estrutura da LGPD e Alguns Conceitos na Prática</Text>
         </TextContainer>
-        <Image></Image>
+        <Image src={ImgModulo4}></Image>
       </Card>
       <Card>
         <TextContainer>
@@ -103,7 +108,7 @@ const Section7 = () => {
           <Text>Aula 3 - Principais Conceitos LGPD</Text>
           <Text>Aula 4 - Conscientização LGPD</Text>
         </TextContainer>
-        <Image></Image>
+        <Image src={ImgModulo5}></Image>
       </Card>
     </Container>
   );

@@ -39,7 +39,8 @@ const MainContent = styled.div`
     height: 100%;
   }
   @media (max-width: 700px) {
-    width: 85%;
+    width: 95%;
+    height: 45%;
   }
 `;
 
@@ -55,7 +56,7 @@ const Section5 = () => {
           className="swiper-container"
           spaceBetween={0}
           slidesPerView={"1"}
-          navigation={true}
+          // navigation={true}
           preventClicks={false}
           preventClicksPropagation={false}
           pagination={true}

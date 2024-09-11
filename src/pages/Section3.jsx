@@ -163,6 +163,7 @@ const CtaContainer = styled.div`
   margin: 0 auto;
   position: relative;
   top: 55px;
+  padding: 0.5rem;
   &:hover {
     scale: 1.08;
   }
@@ -172,7 +173,7 @@ const CtaButton = styled.a`
   width: 100%;
   color: white;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 `;
 
@@ -231,13 +232,22 @@ const Section3 = () => {
             </ColumnPriceContainer>
             <ColumnPriceObs>
               De Implementação <br />+ Tx. Mensal:{" "}
-              <span style={{ fontSize: "1.7rem" }}>R$97</span> <br /> P/ 3
-              USUÁRIOS
+              <span
+                style={{
+                  fontSize: "1.7rem",
+                  border: "4px dashed #00b22fa8",
+                  borderRadius: "50%",
+                  padding: ".8rem",
+                }}
+              >
+                R$97
+              </span>{" "}
+              <br /> P/ 3 USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <CtaContainer>
             <CtaButton target="blank" href="https://sun.eduzz.com/89AO8KP80D">
-              COMPRAR
+              COMPRAR AGORA
             </CtaButton>
           </CtaContainer>
         </FirstColumn>
@@ -291,13 +301,22 @@ const Section3 = () => {
             </ColumnPriceContainer>
             <ColumnPriceObs>
               De Implementação <br />+ Tx. Mensal:{" "}
-              <span style={{ fontSize: "1.7rem" }}>R$197</span> <br /> P/ 10
-              USUÁRIOS
+              <span
+                style={{
+                  fontSize: "1.7rem",
+                  border: "4px dashed #00b22fa8",
+                  borderRadius: "50%",
+                  padding: ".8rem",
+                }}
+              >
+                R$197
+              </span>{" "}
+              <br /> P/ 10 USUÁRIOS
             </ColumnPriceObs>
           </ColumnPrinceMainContainer>
           <CtaContainer>
             <CtaButton target="blank" href="https://sun.eduzz.com/Z0BBX2640A">
-              COMPRAR
+              COMPRAR AGORA
             </CtaButton>
           </CtaContainer>
         </SecondColumn>
